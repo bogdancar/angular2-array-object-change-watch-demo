@@ -1,6 +1,8 @@
 This is a demo app of listening to an array binded on ng-component for changes. This a change on Angular 2 that is not well documented thus difficult to figure out. In this app we will bind a datasource that is going to be an array where we push a value each 5 seconds. On our component we will raise an event each time a push happen on the array. 
 To achieve that we are going to use DoCheck from Angular Core aswell as IterableDiffers to compare the states of the array. If you want to check an object change, use instead KeyValueDiffers.
-This demo is built and works on Angular 4.2.3 (June 2017)
+This demo is built and works on Angular 4.2.3 (June 2017).
+
+You can find an article about this on my blog [Angular 2 watch changes on array/object](http://blog.bogdancarpean.com/how-to-watch-for-changes-an-arrayobject-on-angular-2/)
 
 
 # Angular2ArrayObjectWatchDemo
